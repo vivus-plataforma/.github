@@ -2,8 +2,9 @@
 name: VIVUS-BUG_REPORT_SOLUTION-ISSUE-TEMPLATE
 about: Ao criar uma issue de TI interna utilizar este template
 title: ''
-labels: ''
-assignees: ''
+labels: acesso, ambiente, conteúdo, dev-banco, fluxo navegação, funcionalidade, ia,
+  indefinido, ui, usabilidade, wontfix
+assignees: eliziersantos, will-brandsi
 
 ---
 
@@ -21,8 +22,9 @@ Draft(s) de origem:
 |USABILIDADE|<título>|
 |AMBIENTE|<título>|
 
-Issue de destino
+Issue(s) de destino
 
 |REPOSITÓRIO|ISSUE|
 |--|--|
-|<REPO>|<()[ISSUE LINK]>|
+|[vivus-plataforma.github.io-repository](https://github.com/vivus-plataforma/vivus-ti-repository)|[#X](https://github.com/vivus-plataforma/vivus-ti-repository/issues/X)|
+|[vivus-plataforma.github.io-repository](https://github.com/vivus-plataforma/vivus-ti-repository)|[#5](https://github.com/vivus-plataforma/vivus-plataforma.github.io-repository/issues/5)|
