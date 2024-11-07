@@ -1,6 +1,6 @@
 ---
 name: VIVUS-BUG_REPORT_INTERNAL-ISSUE-TEMPLATE
-about: Ao criar uma issue de TI interna utilizar este template
+about: Ao criar uma issue de BUG utilizar este template
 title: ''
 labels: acesso, ambiente, conteúdo, dev-banco, fluxo navegação, funcionalidade, ia,
   indefinido, ui, usabilidade, wontfix
