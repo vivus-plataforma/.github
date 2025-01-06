@@ -145,5 +145,5 @@ body:
       label: Envolvidos
       description: "Selecione os membros do time envolvidos na execução da issue"
       options:
-        - label: Nome do Membro 1
+        - label: @elizier.santos
         - label: Nome do Membro 2
