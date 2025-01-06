@@ -38,11 +38,12 @@ body:
       label: Nome da Tela
       placeholder: "Se a funcionalidade for uma tela, informe o nome que todos irão usar para se referir a ela"
 
-  - type: file
+  - type: textarea
     id: imagem_funcionalidade
     attributes:
-      label: Imagem Completa da Funcionalidade
-      description: "Arraste e solte a imagem aqui ou clique para fazer o upload"
+      label: Link ou Descrição da Imagem da Funcionalidade
+      description: "Insira um link para a imagem ou adicione manualmente arrastando-a no corpo da issue"
+      placeholder: "Ex.: Link para o mockup ou descrição visual"
 
   - type: markdown
     attributes:
@@ -100,11 +101,12 @@ body:
       label: Descrição da Sub-Ação
       placeholder: "Descreva resumidamente a sub-ação"
 
-  - type: file
+  - type: textarea
     id: imagem_sub_acao
     attributes:
-      label: Imagem Recortada da Sub-Ação
-      description: "Arraste e solte a imagem aqui ou clique para fazer o upload"
+      label: Link ou Descrição da Imagem da Sub-Ação
+      description: "Insira um link para a imagem ou adicione manualmente arrastando-a no corpo da issue"
+      placeholder: "Ex.: Link para o mockup ou descrição visual"
 
   - type: markdown
     attributes:
