@@ -1,0 +1,147 @@
+name: "Nova Funcionalidade"
+description: "Template para definição e descrição de novas funcionalidades do projeto"
+title: "Funcionalidade: [Nome da Funcionalidade]"
+labels: ["nova-funcionalidade"]
+body:
+  - type: input
+    id: nome_funcionalidade
+    attributes:
+      label: Nome da Funcionalidade
+      placeholder: "Informe o nome da funcionalidade"
+    validations:
+      required: true
+
+  - type: textarea
+    id: narrativa
+    attributes:
+      label: Narrativa Descritiva da Funcionalidade
+      description: "Descreva a funcionalidade e seu comportamento esperado"
+      placeholder: "Exemplo: Esta funcionalidade permitirá ao usuário cadastrar novos produtos no sistema..."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: tipo_issue
+    attributes:
+      label: Tipo de Issue
+      description: "Selecione quais as equipes do projeto estão envolvidas na implementação desta funcionalidade"
+      options:
+        - label: Backend
+        - label: Frontend
+        - label: Design UI/UX
+    validations:
+      required: true
+
+  - type: input
+    id: nome_tela
+    attributes:
+      label: Nome da Tela
+      placeholder: "Se a funcionalidade for uma tela, informe o nome que todos irão usar para se referir a ela"
+
+  - type: file
+    id: imagem_funcionalidade
+    attributes:
+      label: Imagem Completa da Funcionalidade
+      description: "Arraste e solte a imagem aqui ou clique para fazer o upload"
+
+  - type: markdown
+    attributes:
+      value: "## Lista de Campos da Funcionalidade"
+
+  - type: textarea
+    id: lista_campos
+    attributes:
+      label: Nome do Campo
+      placeholder: "Informe o nome do campo"
+    validations:
+      required: true
+
+  - type: textarea
+    id: descricao_campo
+    attributes:
+      label: Descrição do Tipo de Conteúdo do Campo
+      placeholder: "Descreva o propósito e tipo de conteúdo do campo"
+    validations:
+      required: true
+
+  - type: textarea
+    id: regras_campo
+    attributes:
+      label: Regras do Conteúdo do Campo
+      placeholder: "Descreva as regras de preenchimento do campo"
+    validations:
+      required: true
+
+  - type: textarea
+    id: restricoes_campo
+    attributes:
+      label: Restrições do Conteúdo do Campo
+      placeholder: "Descreva as restrições e validações aplicáveis ao campo"
+
+  - type: textarea
+    id: regras_cruzadas
+    attributes:
+      label: Regras Cruzadas entre Campos
+      placeholder: "Se o conteúdo deste campo depender de outro, descreva as dependências"
+
+  - type: markdown
+    attributes:
+      value: "## Lista de Sub-Ações"
+
+  - type: input
+    id: nome_sub_acao
+    attributes:
+      label: Nome da Sub-Ação
+      placeholder: "Informe o nome da sub-ação"
+
+  - type: textarea
+    id: descricao_sub_acao
+    attributes:
+      label: Descrição da Sub-Ação
+      placeholder: "Descreva resumidamente a sub-ação"
+
+  - type: file
+    id: imagem_sub_acao
+    attributes:
+      label: Imagem Recortada da Sub-Ação
+      description: "Arraste e solte a imagem aqui ou clique para fazer o upload"
+
+  - type: markdown
+    attributes:
+      value: "## Listagem de Issues Filhas"
+
+  - type: input
+    id: numero_issue_filha
+    attributes:
+      label: Número da Issue
+      placeholder: "Insira o número da issue filha (ex.: #123)"
+
+  - type: checkboxes
+    id: tipo_issue_filha
+    attributes:
+      label: Tipo da Issue Filha
+      options:
+        - label: Backend
+        - label: Frontend
+        - label: Design UI/UX
+
+  - type: input
+    id: nome_issue_filha
+    attributes:
+      label: Nome da Issue Filha
+      placeholder: "Informe o nome da issue filha"
+
+  - type: textarea
+    id: descricao_issue_filha
+    attributes:
+      label: Breve Descrição da Issue Filha
+      placeholder: "Descreva resumidamente a issue filha"
+
+  - type: checkboxes
+    id: assignees
+    attributes:
+      label: Envolvidos
+      description: "Selecione os membros do time envolvidos na execução da issue"
+      options:
+        - label: Nome do Membro 1
+        - label: Nome do Membro 2
