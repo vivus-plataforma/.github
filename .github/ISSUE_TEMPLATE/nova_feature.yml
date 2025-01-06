@@ -145,5 +145,12 @@ body:
       label: Envolvidos
       description: "Selecione os membros do time envolvidos na execução da issue"
       options:
-        - label: @elizier.santos
-        - label: Nome do Membro 2
+        - label: eliziersantos
+        - label: Joilson-Rangel
+        - label: Michelle-Mello
+        - label: SGARB77
+        - label: bilxxx
+        - label: gtorrespcode
+        - label: luisfmatheuscorrea
+        - label: mariotcosta
+        - label: will-brandsi
